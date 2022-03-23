@@ -1,0 +1,273 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_EXTRA_CSS: ./css/blood.css
+#+REVEAL_EXTERNAL_PLUGINS: (spotlight "js/spotlight.js" "plugin/spotlight.js")
+#+REVEAL_EXTRA_SCRIPT_SRC: ./js/caption.js
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_HIGHLIGHT_CSS: https://cdn.jsdelivr.net/npm/reveal.js@4.2.0/plugin/highlight/monokai.css
+#+OPTIONS: reveal_global_footer:t
+#+OPTIONS: timestamp:nil toc:2 num:nil
+:END:
+
+# #+REVEAL_EXTERNAL_PLUGINS: (spotlight . "js/spotlight.js") (spotconf
+# . "plugin/spotlight.js")
+
+# #+startup: latexpreview
+# #+startup: imagepreview
+
+# #+title: Produção Enxuta
+#+TITLE: Escassez de Aguá
+# #+EMAIL: pedro.branquinho@usp.br
+#+AUTHOR: Pedro Branquinho
+# #+DATE: Universidade de São Paulo - DEMAR
+#+OPTIONS: toc:nil
+
+
+* População mundial
+** 7.9 Bilhões
+Estima-se que, nesse ano, chegemos a _8 bilhões_ de humanos habitantes da Terra, ao fim do ano ([[https://www.weforum.org/agenda/2021/12/world-population-history/][World Economic Forum]]).
+
+*** Top 10 maiores populações
+- China: 1.4 bi.
+- Índia: 1.4 bi.
+- EUA: 331 mi.
+- Indonésia: 274 mi.
+- Paquistão: 221 mi.
+- Brasil: 213 mi.
+
+Fontes: [[https://pt.wikipedia.org/wiki/Lista_de_pa%C3%ADses_por_população][Wikipedia]] e [[https://www.worldometers.info/world-population/][World o Meter]]
+
+** Taxa de nascimento mundial
+#+ATTR_REVEAL: :frag (appear)
+- 267 por minuto;
+- 4.5 por segundo;
+- ou 215,000 por dia.
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Why Poverty? Four Born Every Second (2012) [1 de 8]
+#+ATTR_HTML: :width 60% :align left
+[[file:img/whypoverty.png][file:./img/whypoverty.png]]
+
+** Analogia com um Vírus
+# #+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Será o ser humano um vírus?
+#+ATTR_HTML: :width 95% :align right
+[[file:img/smith.png][file:./img/smith.png]]
+** Ordem de grandeza, em tamanho
+#+ATTR_REVEAL: :frag (highlight-current-red)
+- Diametro da Terra: 6,378.137 km
+- Tamanho do homem médio: 1.70m
+- Diferença de ordem de grandeza: $10^6$
+- Diametro de um vírus: 20-300 nm
+- Tamanho do homem médio: 1.70m
+- Diferença de ordem de grandeza: $10^7-10^8$
+
+** Ordem de grandeza, em reprodução
+#+ATTR_REVEAL: :frag (appear)
+- Tempo de vida máximo do vírus: 24 horas
+- Tempo de vida máximo do homem: 80 anos
+- Tempo mínimo de reprodução do vírus: 6 horas
+- Tempo mínimo de reprodução do homem: 18 anos
+
+*Razões:*
+#+ATTR_REVEAL: :frag (appear)
+- Razão do tempo de vida e reprodução - vírus: 4
+- Razão do tempo de vida e reprodução - homem: 4.4
+
+* Desigualdades
+** Hídrica e eco-econômica
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Razão entre uso e disponibilidade hídrica
+#+ATTR_HTML: :width 48% :align left
+[[file:img/escassez1-conv.png][file:./img/escassez1-conv.png]]
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Impedância econômica atrelada a mudança climática
+#+ATTR_HTML: :width 48% :align right
+[[file:img/climate2.png][file:./img/climate2.png]]
+
+Fontes: [[https://www.youtube.com/watch?v=3SGIGB7EY08][Why Poverty 1 of 8, Four Born Every Second (2012)]], [[https://www.bbc.com/portuguese/geral-49243195][BBC, escassez hídrica]], [[https://vcresearch.berkeley.edu/news/study-finds-climate-change-will-reshape-global-economy][Berkeley]].
+** Expectativa de vida e Qualidade de vida
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Mapa de expectativa de vida
+#+ATTR_HTML: :width 48% :align left
+[[file:img/lifeexpectancy.png][file:./img/lifeexpectancy.png]]
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Mapa de coeficiente de Gini
+#+ATTR_HTML: :width 48% :align right
+[[file:img/ginimap.png][file:./img/ginimap.png]]
+
+** Distribuição de recursos ("riqueza")
+#+begin_quote
+The 26 richest people on earth in 2018 had the same net worth as the poorest half of the world’s population, some 3.8 billion people.
+#+end_quote
+** Graficamente
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Distribuição de riqueza
+#+ATTR_HTML: :width 48% :align left
+[[file:img/444px-Global_Wealth_Distribution_2020_(Property).svg.png][file:./img/444px-Global_Wealth_Distribution_2020_(Property).svg.png]]
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Absorção da taxa de crescimento de riqueza
+#+ATTR_HTML: :width 48% :align right
+[[file:img/IncomeGrowth3.png][file:./img/IncomeGrowth3.png]]
+
+Fontes: [[https://wikiless.org/wiki/Distribution_of_wealth?lang=en][Wikipedia, Distribution of Wealth]] e [[https://www.weforum.org/agenda/2021/12/global-income-inequality-gap-report-rich-poor/][World Economic Forum]]
+
+** Educação
+*** Universidades
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Distribuição das melhores universidades
+#+ATTR_HTML: :width 48% :align left
+[[file:img/university.png][file:./img/university.png]]
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION:
+#+ATTR_HTML: :width 48% :align right
+[[file:img/educacao-superior.png][file:./img/educacao-superior.png]]
+
+*** Tipos de universidade
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Mapa de tipo de universidades
+#+ATTR_HTML: :width 48% :align left
+[[file:img/university2.png][file:./img/university2.png]]
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Países Árabes e Engenharia
+#+ATTR_HTML: :width 48% :align right
+[[file:img/PaisesAfricans.png][file:./img/PaisesAfricans.png]]
+
+* Matriz-energética biológica
+
+#+begin_quote
+A food web starts at trophic level 1 with primary producers such as plants, can move to herbivores at level 2, carnivores at level 3 or higher, and typically finish with apex predators at level 4 or 5.
+#+end_quote
+
+** Níveis tróficos
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Pirâmide dos níveis tróficos
+#+ATTR_HTML: :width 95% :align center
+[[file:img/Ecological-Pyramid-1.jpg][file:./img/Ecological-Pyramid-1.jpg]]
+
+** Eficiência Trófica
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Eficiência trófica simplificada
+#+ATTR_HTML: :width 95% :align center
+[[file:img/figure-7_c_b.jpg][file:./img/figure-7_c_b.jpg]]
+
+Fontes: [[https://healingearth.ijep.net/energy/trophic-levels-and-trophic-efficiency][Eficiência Trófica]] e [[https://wikiless.org/wiki/Trophic_level?lang=en][Níveis Tróficos]].
+
+** Consumo de energia e recursos, por kg de alimento
+:PROPERTIES:
+:reveal_background_opacity: 0.5
+:END:
+
+# :reveal_background: ./img/kaizen.png
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Eficiência trófica simplificada
+#+ATTR_HTML: :width 70% :align center
+[[file:img/WF_per_calorie_protein_and_fat2.png][file:./img/WF_per_calorie_protein_and_fat2.png]]
+
+** Um modelo ainda mais realístico
+- Plantas e algas: 3% de conversão líquida chega ao segundo nível trófico ([[https://www.scientificamerican.com/article/plants-versus-photovoltaics-at-capturing-sunlight/][Scientific American]]
+ e [[https://www.scientificamerican.com/article/plants-versus-photovoltaics-at-capturing-sunlight/][Wikipedia]]).
+- Vaca, ovelha, porco, galinha etc: 0.01%-0.001% ([[https://waterfootprint.org/en/water-footprint/product-water-footprint/water-footprint-crop-and-animal-products/][Water Footprint]]).
+
+** Pegada de água
+#+begin_quote
+Most of the total volume of water (98%) refers to the water footprint of the feed for the animals. Drinking water for the animals, service water and feed mixing water account only for 1.1%, 0.8% and 0.03%, respectively.
+#+end_quote
+
+** Gráfico da BBC
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: "Retirada" de água global
+#+ATTR_HTML: :width 95% :align center
+[[file:img/retirada.png][file:./img/retirada.png]]
+
+* Simbiogénese ou Endossimbiose (uma alternativa)
+#+begin_quote
+Symbiogenesis, endosymbiotic theory, or serial endosymbiotic theory, is the leading evolutionary theory of the origin of eukaryotic cells from prokaryotic organisms.
+#+end_quote
+
+** Cientistas cruciais à teoria (Desenvolvedores)
+#+begin_quote
+In 1966, as a young faculty member at Boston University, Margulis wrote a theoretical paper titled "On the Origin of Mitosing Cells". The paper, however, was "rejected by about fifteen scientific journals", she recalled.
+#+end_quote
+
+** Fotos
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Konstantin Mereschowski (1910)
+#+ATTR_HTML: :width 45% :align left
+[[file:img/220px-Konstantin_Mereschkowski_cr.jpg][file:./img/220px-Konstantin_Mereschkowski_cr.jpg]]
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Lynn Margulis (1966), colaboradora na Hipótese Gaia.
+#+ATTR_HTML: :width 45% :align right
+[[file:img/220px-Lynn_Margulis.jpg][file:./img/220px-Lynn_Margulis.jpg]]
+
+** Demonstração empírica (1978)
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION:
+ Schwartz, R.; Dayhoff, M. (1978). "Origins of prokaryotes, eukaryotes, mitochondria, and chloroplasts". Science. 199
+#+ATTR_HTML: :width 45% :align left
+[[file:img/220px-Photo_of_Margaret_Oakley_Dayhoff.jpg][file:./img/220px-Photo_of_Margaret_Oakley_Dayhoff.jpg]]
+
+** Esquema da endossimbiose
+
+#+begin_quote
+The theory holds that mitochondria, plastids such as chloroplasts, and possibly other organelles of eukaryotic cells are descended from formerly free-living prokaryotes (more closely related to bacteria than to archaea) taken one inside the other in endosymbiosis.
+#+end_quote
+
+** Imagem esquemática
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Origem das Mitocôndrias e Cloroplastos
+#+ATTR_HTML: :width 95% :align center
+[[file:img/endossimbiose.png][file:./img/endossimbiose.png]]
+
+** O que diferencia a =Simbiose= e =Parasitismo=?
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Bottom-up vs Top-down
+#+ATTR_HTML: :width 95% :align center
+[[file:img/tropic-relation.png][file:./img/tropic-relation.png]]
+
+** Fatos interessantes
+- A mitocôndria tem reprodução autônoma à célula em que habita.
+- O DNA mitocondrial é sempre herdado da mãe.
+
+* Origens da falta hídrica
+** Resumo
+#+ATTR_REVEAL: :frag (highlight-current-red appear)
+- Não existem sistemas integrados de controle de recursos globais.
+- Não existem sistemas de distribuição inteligente de recursos globais.
+- Falta de habilidade para planejar cenários de escassez real.
+- Alimentação mundial baseada em níveis tróficos secundários e terciários.
+- Agravantes: guerras, e ser um país não-europeu ou não-norte-americano.
+
+** Quão preparado estamos?
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Herdeiro Bilionário comprando um condomínio
+#+ATTR_HTML: :width 45% :align left
+[[file:img/superrico.png][file:./img/superrico.png]]
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Ivanka Trump, Cultura de Massa
+#+ATTR_HTML: :width 45% :align right
+[[file:img/Ivanka.png][file:./img/Ivanka.png]]
+
+Fonte: [[https://www.youtube.com/watch?v=maWdDl_OjlQ&t=1572s][Born Rich]] e [[https://www.youtube.com/watch?v=HmlX3fLQrEc][The One Percent]], por Jamie Johnson.
+
+** Pra onde estamos indo?
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: "Como manter-nos ricos?"
+#+ATTR_HTML: :width 45% :align left
+[[file:img/superrico.png][file:./img/confe.png]]
+
+#+ATTR_REVEAL: :frag (grow)
+#+CAPTION: Fonte: The One Percent, Jamie Johnson
+#+ATTR_HTML: :width 45% :align right
+[[file:img/Ivanka.png][file:./img/confe2.png]]
